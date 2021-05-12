@@ -1,0 +1,23 @@
+[
+  {
+    "name": "contact___en",
+    "path": "/contact",
+    "component": "/Users/apple/Desktop/OpenSource/converter/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_10b2429c"
+  },
+  {
+    "name": "privacy___en",
+    "path": "/privacy",
+    "component": "/Users/apple/Desktop/OpenSource/converter/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_67de4e04"
+  },
+  {
+    "name": "cvt___en",
+    "path": "/:cvt?",
+    "component": "/Users/apple/Desktop/OpenSource/converter/pages/_cvt.vue",
+    "chunkName": "pages/_cvt",
+    "_name": "_d20b1c54"
+  }
+]

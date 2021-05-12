@@ -1,0 +1,15 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/_cvt.js": "pages/_cvt.js",
+    "pages/contact.js": "pages/contact.js",
+    "pages/privacy.js": "pages/privacy.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/_cvt.js": "pages/_cvt.js.map",
+    "pages/contact.js": "pages/contact.js.map",
+    "pages/privacy.js": "pages/privacy.js.map",
+    "server.js": "server.js.map"
+  }
+}
