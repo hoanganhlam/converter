@@ -73,6 +73,6 @@ export default {
 
 <style scoped>
 .min-w-1 {
-  min-width: 5.5rem;
+  min-width: 4rem;
 }
 </style>

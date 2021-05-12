@@ -1,8 +1,8 @@
 <template>
   <div class="flex space-x-2 mb-2 last:mb-0">
-    <div v-for="p in params" :key="p.name" class="flex w-1/4">
+    <div v-for="p in params" :key="p.name" class="flex w-1/3 md:w-1/4">
       <label class="flex-1 relative">
-        <span class="absolute bottom-1 right-2 font-bold text-gray-500 text-xs">{{p.name}}</span>
+        <span class="absolute bottom-1 right-2 font-bold text-gray-400 text-xs">{{p.name}}</span>
         <input type="number" :value="pValue[p.name] || p.default" class="input" @input="handleInputParam(p.name, $event)">
       </label>
     </div>
@@ -119,7 +119,7 @@ export default {
 
 <style scoped>
 .input {
-  @apply w-full text-2xl font-bold border border-gray-100 p-3 rounded-sm;
+  @apply w-full md:text-2xl font-bold border border-gray-100 p-2 md:p-3 rounded-sm;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 </style>
